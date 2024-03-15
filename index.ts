@@ -5,7 +5,7 @@
 // const url = path.join('users','desktop','test');
 // console.log(path.join(url,'index.html'))
 // console.log(path.join(url,'../index.html'))
-
+import './filehanding_promise';
 import fs, { existsSync, readFile } from 'node:fs'
 import path from 'node:path';
 class MyFileSystemSync {
